@@ -16,6 +16,8 @@
 
         public string Description { get; set; }
 
+        public int Views  { get; set; }
+
         public PropertyType PropertyType { get; set; }
 
         public int BrokerId { get; set; }
