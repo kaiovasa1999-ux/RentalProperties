@@ -37,8 +37,7 @@ namespace RentalProperties.Controllers
             {
                 return this.View(input);
             }
-            //var x = this._webHost.WebRootPath + "\\Images";
-            //var y = "C:\\Repos\\C#\\RentalProperties\\RentalProperties\\wwwroot\\Images";
+
             using (FileStream fs = new FileStream(filePath, FileMode.Create))
             {
                 foreach (var item in files)
